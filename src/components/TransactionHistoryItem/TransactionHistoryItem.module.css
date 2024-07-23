@@ -1,0 +1,19 @@
+.tdType {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+}
+
+.tdAmount {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.tdCurrency {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
