@@ -1,5 +1,5 @@
 import Profile from "../Profile/Profile";
-import FriendList from "../FriendList/FriendList";
+import FriendList from "../FiendList/FriendList";
 import TransactionHistory from "../TransactionHistory/TransactionHistory";
 import userData from "../../data/userData.json";
 import friends from "../../data/friends.json";

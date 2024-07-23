@@ -1,20 +1,11 @@
-import styles from "./FriendListItem.module.css";
-
-const FriendListItem = ({ avatar, name, isOnline }) => {
+import styles from "./TransactionHistoryItem.module.css";
+const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
-    <div className={styles.card}>
-      <img
-        src={avatar}
-        alt={`${name}'s avatar`}
-        width="48"
-        className={styles.avatar}
-      />
-      <p className={styles.name}>{name}</p>
-      <p className={isOnline ? styles.online : styles.offline}>
-        {isOnline ? "Online" : "Offline"}
-      </p>
-    </div>
+    <tr>
+      <th className={styles.tdType}>{type}</th>
+      <th className={styles.tdAmount}>{amount}</th>
+      <th className={styles.tdCurrency}>{currency}</th>
+    </tr>
   );
 };
-
-export default FriendListItem;
+export default TransactionHistoryItem;
